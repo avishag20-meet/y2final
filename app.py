@@ -49,4 +49,4 @@ def asking_f():
 
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run(debug=True, threaded=False, port=5020)

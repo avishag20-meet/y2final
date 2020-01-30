@@ -1,0 +1,10 @@
+.picture{
+	background-image: url("../pictures/home page pictures/header_bg.jpeg");
+	background-size: cover;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}

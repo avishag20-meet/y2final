@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yoga types</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+	.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+	.fa-anchor,.fa-coffee {font-size:200px}
+	</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href= "{{url_for('template')}}" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href= "{{url_for('readingmaterial')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Reading material</a>
+    <a href= "{{url_for('findlessons')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Find lessons</a>
+    <a href= "{{url_for('startpracticing')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Start practicing</a>
+    <a href= "Q&A" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Questions & Answers</a>
+    <a href= "{{url_for('asking_f')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Ask Your Question</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+
+
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">YOGA TYPES</h1>
+  <p class="w3-xlarge">explore some of the most popular types of yoga, and discover which one might be the best fit for you</p>
+</header>
+
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+    </div>
+
+    <div class="w3-twothird">
+      <h1>With so many types of yoga out there, how do you find the one that’s right for you? You may have tried yoga at a local studio or at your gym, but visiting one type of yoga class doesn’t mean the studio down the street teaches the same style.</h1>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <!--<div class="w3-twothird">-->
+
+      <br>
+      <h1>Vinyasa Yoga</h1>
+      <p class="w3-text-grey">Vinyasa yoga is popular and is taught at most studios and gyms. “Vinyasa” means linking breath with movement. The postures are usually done in a flowing sequence, or "vinyasa flow." The fluid movements can be memorized and done as a moving meditation, almost like a dance.</p>
+      <p class="w3-text-grey">The popularity of this style of yoga comes from the sensual movements, pleasant music, usually (but not always) practiced in a dark room, or sometimes by candlelight and with the eyes closed.</p>
+      <br>
+   	  <img src="../static/pictures/yoga types pictures/vinyasa_yoga.jpeg" alt="Vinyasa Yoga" width="500" height="333">
+   	  <br>
+   	  <br>
+
+      <br>
+      <h1>Ashtanga Yoga</h1>
+      <p class="w3-text-grey">Ashtanga means “eight limbs” and encompasses a yogic lifestyle. Most people identify Ashtanga as traditional Indian yoga. Like Vinyasa yoga, the Ashtanga yoga asanas (postures) synchronize breath with movement as you move through a series of postures.</p>
+      <p class="w3-text-grey">It was brought to the United States by Sri K. Pattabhi Jois in the early 20th century. The series of postures are practiced the same way every time and consist of Sun Salutation A, Sun Salutation B, a standing sequence, and a closing sequence. The practice is usually performed without music, and sometimes without verbal instruction (in silence).</p>
+      <br>
+      <img src="../static/pictures/yoga types pictures/ashtanga_yoga.jpeg" alt="Ashtanga Yoga" width="500" height="333">
+      <br>
+      <br>
+
+      <br>
+      <h1>Iyengar Yoga</h1>
+      <p class="w3-text-grey">Also based on the Eight Limbs of Yoga, Iyengar yoga is named after B.K.S. Iyengar, a famous yogi from India. It was popularized in the West about the same time as Ashtanga yoga.</p>
+      <p class="w3-text-grey">The emphasis on this practice is alignment in the asanas using breath control through pranayama and the use of props (bolsters, blankets, blocks and straps.) This style of yoga is usually taught without music and at a slower pace designed to assist students to get deeper into the postures.</p>
+      <br>
+      <img src="../static/pictures/yoga types pictures/iyengar_yoga.jpeg" alt="Iyengar Yoga" width="500" height="333">
+      <br>
+      <br>
+
+      <br>
+      <h1>Bikram Yoga</h1>
+      <p class="w3-text-grey">Bikram yoga was designed by Bikram Choudhury in the 1970s, who brought the practice to California from India.</p>
+      <p class="w3-text-grey">Class consists of the same twenty-six yoga postures and two breathing exercises. It is ninety minutes long and done in a room that is 105 degrees Fahrenheit with 40% humidity. The room is bright and the students face mirrors to check proper posture and alignment. There is no music during class.</p>
+      <br> 
+      <img src="../static/pictures/yoga types pictures/bikram_yoga.jpeg" alt="Bikram Yoga" width="500" height="333">
+      <br>
+      <br>
+
+      <br>
+      <h1>Jivamukti Yoga</h1>
+      <p class="w3-text-grey">Jivamukti was created in 1984 by Sharon Gannon and David Life in New York City. ivamukti translates to “liberated being.”</p>
+      <p class="w3-text-grey">Class incorporates Sanskrit chanting, Pranayama, and movement (Asanas), with a theme or lesson for each class. This is a good blend of spiritual and physical exercise.</p>
+      <br>
+      <img src="../static/pictures/yoga types pictures/jivamukti_yoga.jped" alt="Jivamukti Yoga" width="500" height="333">
+      <br>
+      <br>
+
+      <br>
+      <h1>Power Yoga</h1>
+      <p class="w3-text-grey">Power yoga is a more active approach to the traditional Hatha yoga poses. The Ashtanga yoga poses are performed more quickly and with added core exercises and upper body work.</p>
+      <p class="w3-text-grey">The sequences are not the same every time, and there is often upbeat music. Vinyasa yoga can also be Power yoga, depending on the gym or studio that is hosting the class.</p>
+      <br>
+      <img src="../static/pictures/yoga types pictures/power_yoga.jpeg" alt="Power Yoga" width="500" height="333">
+      <br>
+      <br>
+
+      <br>
+      <h1>Sivananda Yoga</h1>
+      <p class="w3-text-grey">Sivananda yoga was brought to the United States by Swami Vishnudevananda in 1957. This is a yoga system based on the five yogic principals: proper breathing, relaxation, diet, exercise, and positive thinking. These work together to make a healthy yogic lifestyle.</p>
+      <p class="w3-text-grey">The asana practice is usually twelve basic postures or variations of the Asanas, with Sun Salutations and Savasana. There is no music.</p> 
+      <br>
+      <img src="../static/pictures/yoga types pictures/sivananda_yoga.jpeg" alt="Sivananda Yoga" width="500" height="333">
+      <br>
+      <br>
+
+      <br>
+      <h1>Yin Yoga</h1>
+      <p class="w3-text-grey">Yin yoga is a meditative practice that allows your body to become comfortable in a pose without doing any work (strength). It is also called Taoist yoga, and focuses on lengthening the connective tissues within the body. It is meant to compliment Yang yoga, or muscle-forming yoga practices.</p>
+      <p class="w3-text-grey">If Yang is active, then Yin is passive, meaning the muscles are allowed to relax with gravity and rest. This is usually performed with the assistance of props, and there is little or no music in class.</p>
+      <br>
+      <img src="../static/pictures/yoga types pictures/yin_yoga.jpeg" alt="Yin Yoga" width="500" height="333">
+      <br>
+      <br>
+
+    </div>
+    <div class="w3-third w3-center">
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+    </div>
+
+    <div class="w3-twothird">
+      <h3>There are many more types and styles of yoga practices, and each one is unique. When you find a practice or a studio that works for you, stick with it. Make your practice part of your life, and you will begin to harvest the benefits of your dedication and consistency.
+      <br>
+      If you are starting something new, come to class with an open mind. And let go of any expectations; you might surprise yourself and find joy in something that you thought was not going to work for you. Remember to be comfortable with change — although a teacher of a certain style of yoga might discourage you from straying, sometimes it’s good to mix it up, depending on what your body and soul may need during different aspects of your life or schedule. Whatever your yoga practice, embrace it with love and grace.</h3>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment. Buddha </h1>
+</div>
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+</footer>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

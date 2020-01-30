@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+  .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+  .fa-anchor,.fa-coffee {font-size:200px}
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href= "{{url_for('template')}}" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href= "{{url_for('yogatypes')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Yoga Types</a>
+    <a href= "{{url_for('readingmaterial')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Reading material</a>
+    <a href= "{{url_for('findlessons')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Find Lessons</a>
+    <a href= "Q&A" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Questions & Answers</a>
+    <a href= "{{url_for('asking_f')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Ask Your Question</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">START PRACTICING</h1>
+  <p class="w3-xlarge">think outside of the studio: starting a home YOGA practice</p>
+</header>
+
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+
+      <p class="w3-text-grey">Fighting traffic to make it to class on time, remembering to bring your yoga gear, carving out a space for your mat amid the after-work studio crowds: Yoga can sometimes be a less than Zen-like experience. </p>
+      <p class="w3-text-grey">Starting a home yoga practice can ultimately save time, energy, and money. Twenty minutes of yoga at home is often more beneficial than driving, parking, and paying to practice for an hour at a studio.</p>
+      <p class="w3-text-grey">While most yoga teachers will advise you to learn the fundamentals of asana (yoga poses) in a live class before getting on the mat at home, "Nothing replaces the home practice," says 25-year yoga veteran Rodney Yee. "Listening is the practice of yoga; it's so important to go into your own body and ask it to be your teacher. It is a time when you can find your own rhythm. It is where the genuine knowledge arises."</p>
+      <p class="w3-text-grey">"Going to classes has many benefits, of course," he acknowledges, "but I have observed time and time again that it is when people start to practice at home that the real insights occur." </</p>  
+      <p class="w3-text-grey">Beyond the reasons to start a home yoga practice, today there are new ways to start one — ways that blur the lines between showing up in a live yoga class and rolling out a mat in your living room to do yoga at home.</p> 
+
+      <h5 class="w3-padding-32">VIRTUAL YOGA CLASSES ARE MORE SOPHISTICATED THAN EVER</h5> 
+      <p class="w3-text-grey">Besides the many yoga DVDs and books on the market, online yoga classes and digital downloads are bringing home more of the benefits of a live class. While an instructor isn't physically there to observe your alignment and adjust your pose hands-on, multimedia is the next best thing...and for some, it may be even better.</p> 
+
+      <h5 class="w3-padding-32">WHAT YOU NEED TO GET STARTED WITH YOGA AT HOME</h5>  
+  	  <p class="w3-text-grey">The best reason to start a home yoga practice is that you don't need much to begin: </p>
+  	  <ul class="w3-text-grey">
+		<il> Choose or create a quiet, uncluttered space in your home for your practice, and stock it with the essential basic yoga props — mat, strap, blocks, blanket, bolster, etc. The space doesn’t have to be large, but it should be quiet, clean, open, and sacred. </il>
+		<il> Get realistic goals, starting out with small pockets of time (10-15 minutes). </il>
+		<il> Begin with basic beginner's yoga sequences and expand your practice as your skills improve. </il>
+	  </ul>
+
+  	  <p class="w3-text-grey"> That said, it’s your yoga practice — so build it to best meet your individual needs.</p>
+  	  <p class="w3-text-grey">"When I teach classes, I can tell just by watching who is practicing at home and who is not," says Yee. "People who are not practicing at home simply try to fit their bodies into my instructions as if they were following orders. They are concerned mainly with whether they are doing it 'right.' But people who are practicing at home are inquisitive about instructions and test them out in their own bodies, asking themselves, 'How does this feel?'"</p>
+      
+      <h5 class="w3-padding-32">WHICH YOGA POSES SHOULD YOU DO?</h5>  
+      <p class="w3-text-grey">Some styles of yoga follow a set sequence of specific poses, but many instructors, including Yee, recommend a more open-ended approach, especially when you're doing yoga at home.</p>
+      <p class="w3-text-grey"> "At home," he says, "you learn to listen to what your body needs that day, move at your own pace, and develop intuition about what sequences or kinds of yoga poses you want and need to do most on any given day."</p>
+      <p class="w3-text-grey">If you are fatigued, you may want to do a more restorative yoga sequence. If you're feeling energetic, a more flowing, fast-paced or rigorous set of yoga poses may feel more satisfying or help you channel that energy. Many like to do an energizing yoga practice in the morning and a calming restorative practice in the evening.</p>  
+      <p class="w3-text-grey">But listening to what you need is more than a physical thing.</p>  
+      <p class="w3-text-grey">"As you practice your first poses on your own, try to cultivate an attitude of playfulness and acceptance," says Yee. "Being present during your practice means allowing yourself to be aware of whatever physical sensations, emotions, and thoughts are currently arising. Be creative and spontaneous. If you approach your practice with a sense of curiosity, rather than self-judgment or competitiveness, you will find it easier to motivate yourself to practice — and you'll be more present when you do practice."</p>  
+  	  <p class="w3-text-grey">Sun salutations are a time-efficient way of practicing yoga because they thread together poses that involve different parts of the body. Sun salutes are also commonly practiced as a warm-up, followed by standing poses such as Warrior I, II and II — and ending with forward bends, twists and restorative poses.</p>
+  	  <p class="w3-text-grey">As you advance, you may want to move into more challenging intermediate and advanced yoga poses such as arm balances, inversions and backbends.</p>
+
+
+      <h5 class="w3-padding-32">HOW TO STAY MOTIVATED TO DO KEEP DOING YOGA REGULARLY </h5> 
+  	  <p class="w3-text-grey">Setting up a home yoga practice is only half the battle — now you have to roll out your mat and do it.</p>
+  	  <p class="w3-text-grey">"The best advice I can give you," says Yee, "is to make your yoga part of your morning ritual. This means getting to bed 15 minutes earlier so your yoga practice does not cut into your sleep time. The second piece of advice is to sit down with your weekly calendar and begin to cross out any activity that is not serving you anymore (this takes being brutally honest).</p>
+      <p class="w3-text-grey">But in this interview clip from the intro to his A.M. Yoga for Your Week DVD, Yee says the real key to staying motivated to keep doing yoga at home gets back to listening to yourself and exploring what you need with a sense of curiosity and creativity.</p>
+      <p class="w3-text-grey"> "Another significant way to support your home practice," Yee adds, "is to practice with a member of your family or a friend. Being held accountable by others can get you to the mat on the dreariest of days. Once you get to the mat, the magic often takes over after a couple of minutes, and you find yourself vibrating with the music of yoga."</p>
+     
+     </div>
+    <div class="w3-third w3-center">
+    </div>
+  </div>
+</div>
+
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment. Buddha </h1>
+</div>
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+</footer>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+
+</body>
+</html>
